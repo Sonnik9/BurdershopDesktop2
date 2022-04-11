@@ -1,0 +1,351 @@
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+      
+    }
+
+    a {
+
+        text-decoration: none;
+        color: #000;
+    }
+    
+    body, html {
+    
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    
+  /* menu-start */
+        
+
+.content {
+    flex: 1 1 auto;
+   
+}
+.menu {
+    background: #000000;
+    
+    padding: 25px 0px;
+}
+
+.li {
+color: #ffffff;
+font-size: 16px;
+padding-right: 50px;
+
+
+}
+
+
+
+
+.container {
+    width: 840px;
+    margin: 0 auto;
+}
+.content-menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-heand {
+   flex: 1 1 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.right-heand {
+   
+    display: flex;
+    justify-content: end;
+}
+.right-heand p {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 15px;
+
+}
+
+
+.main {
+    display: flex;
+
+/*  */
+height: 1370px;
+
+   
+
+
+}
+
+.logo {
+
+
+display: flex;
+    flex-direction: row;
+     justify-content:space-around;
+align-items: center;
+height: 210px;
+margin-bottom: 45px;
+
+}
+
+
+
+    /* menu-end */
+
+
+ /* body-start */
+
+ .wrapper3 {
+     background: #fbf8f5;
+}
+.main {
+    padding-top: 40px;
+}
+.up-maim {
+}
+.title-main {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.desk-main {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.desk-main a {
+    margin-right: 25px;
+
+
+
+}
+.shape {
+    margin-right: 7px;
+}
+.unik-dm {
+    color: grey;
+}
+.body-main {
+    display: flex;
+}
+.l-main {
+    margin-top: 40px;
+    margin-left: -15px;
+    margin-bottom: 70px;
+}
+.up-l-main img {
+    width: 503px;
+}
+.down-l-main {
+    display: flex;
+}
+.r-main {
+    margin-top: 80px;
+    /* width: 450px; */
+    /* font-size: 12px; */
+    margin-left: 50px;
+    /* margin-right: 10px; */
+    text-transform: uppercase;
+}
+.title-r-main {
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+}
+.l-title-r-main {
+    
+}
+.r-title-r-main {
+    
+    color: grey;
+}
+.r-text {
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 600;
+}
+.btn-r-main {
+    margin-top: 40px;
+    display: flex;
+
+}
+.prise {
+    padding: 9px 18px;
+    background: #e1e1e1;
+    border: none;
+    color: #000;
+    font-size: 11px;
+    display: inline;
+    font-weight: 700;
+}
+
+
+.btn-r-button {
+    padding: 9px 15px;
+    background: #000;
+    border: none;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title-set {
+
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.shape2 {
+display: flex;
+/* margin-bottom: 14px; */
+
+
+
+}
+
+
+.text-set {
+
+    
+    font-size: 11px;
+    margin-top: 15px;
+    font-weight: 700;
+
+
+
+
+}
+.text-set li {
+   margin-left: 15px;
+   margin-top: 9px;
+}
+
+.text-set img {
+    padding-bottom: 9px;
+    margin-top: 9px;
+
+
+
+}
+/* body-end */
+
+    
+/* footer-start */
+   
+.footer {
+    background: #242424;
+    height: 183px;
+}
+
+
+.container {
+}
+.wrap-footer {
+display: flex;
+justify-content: space-between;
+margin: auto -30px;
+color: #ffffff;
+
+
+
+}
+.one-f {
+    flex: 1 1 auto;
+    padding: 30px 30px;
+    font-size: 11px;
+    font-weight: 700;
+   
+}
+.one-f p {
+    line-height: 28px;
+
+
+}
+
+.one-f a {
+color: #ffffff;
+text-decoration: underline;
+
+
+}
+
+.two-f {
+    flex: 1 1 auto;
+    padding: 30px 30px;
+    margin-top: 10px;
+}
+.up-m-f {
+    padding-left: 25px;
+    font-weight: 700;
+   
+}
+.net-bloc {
+    display: flex;
+   margin: auto -12px;
+   margin-top: 25px;
+}
+.net-bloc div {
+    margin: auto 12px;
+    
+    background: #000;
+    
+
+
+
+
+}
+
+
+.vk {
+    padding: 18px 15px 15px 15px;
+}
+.fb {
+    padding: 13px 22px;
+}
+.inst {
+    padding: 13px 18px;
+}
+
+.three-f {
+    flex: 1 1 auto;
+    padding: 30px 30px;
+    margin-top: 10px;
+}
+.up-r-f {
+    font-weight: 700;
+    padding-left: 24px;
+    
+
+
+}
+.btn-f-bloc {
+    background: #000;
+padding: 15px 34px;
+margin-top: 24px;
+border: none;
+color: #ffffff;
+font-size: 17px;
+}
+
+
+/* footer-end */
+
+

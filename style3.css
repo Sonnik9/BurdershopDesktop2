@@ -1,0 +1,437 @@
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+      
+    }
+
+    a {
+
+        text-decoration: none;
+        color: #000;
+    }
+    
+    body, html {
+    
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+  /* menu-start */
+
+.content {
+    flex: 1 1 auto;
+   
+}
+.menu {
+    background: #000000;
+    
+    padding: 25px 0px;
+}
+
+.li {
+color: #ffffff;
+font-size: 16px;
+padding-right: 50px;
+
+
+}
+
+
+
+
+.container {
+    width: 840px;
+    margin: 0 auto;
+}
+.content-menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-heand {
+   flex: 1 1 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.right-heand {
+   
+    display: flex;
+    justify-content: end;
+}
+.right-heand p {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 15px;
+
+}
+
+
+.main {
+    display: flex;
+
+/*  */
+height: 1370px;
+
+   
+
+
+}
+
+.logo {
+
+
+display: flex;
+    flex-direction: row;
+     justify-content:space-around;
+align-items: center;
+height: 210px;
+margin-bottom: 45px;
+
+}
+
+
+
+    /* menu-end */
+
+
+
+/* main-start */
+
+
+    .wrapper3 {
+        background: #fbf8f5;
+
+    }
+    .prise-block {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .title-prise {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .point-prise {
+        display: flex;
+        margin-top: 20px;
+        font-size: 19px;
+
+    }
+    .l-point-pr {
+
+        margin-right: 25px;
+
+
+
+    }
+    .r-point-pr {
+        display: flex;
+        color: grey;
+    }
+
+    .r-point-pr img {
+
+       margin-right: 7px;
+       margin-top: 5px;
+        
+       height: 11px;
+       width: 11px;
+
+
+
+    }
+
+
+
+
+    .general-title {
+        text-align: center;
+        margin-bottom: 60px;
+        margin-top: 35px;
+        max-width: 940px;
+        overflow: hidden;
+    }
+        
+        .text-gen-title:before,
+        .text-gen-title:after {
+            content: '';
+        
+            /* делаем линию строчно-блочной */
+            display: inline-block;
+        
+            /* выравниваем вертикально по середине */
+            vertical-align: middle;
+        
+            /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+            box-sizing: border-box;
+        
+            /* установка ширины в 100% делает линию равной ширине тега заголовка
+            ** благодаря этому линия заполнит все свободное пространство
+            ** слева и справа от текста
+            */
+            width: 32.4%;
+            height: 2px;
+            background: #000;
+        
+            /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+            ** благодаря этому создается нужный отступ между линиями и текстом
+            */
+            border: solid #FFF;
+            border-width: 0 10px;
+        }
+        .text-gen-title:before {
+            /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+            ** благодаря этому линия встает слева от текста
+            */
+            margin-left: -100%;
+        }
+        .text-gen-title:after {
+            /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+            ** благодаря этому линия встает справа от текста
+            */
+            margin-right: -100%;
+        }
+
+
+
+    .text-gen-title {
+        /* position: relative; */
+        overflow: hidden;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px;
+
+       
+    
+    }
+    .gen-description {
+        display: flex;
+        justify-content: space-between;
+    }
+    .l-desk {
+        width: 300px;
+    }
+    .title-l-desk {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 28px;
+       
+    }
+
+    .list-l-desk {
+        margin-bottom: 40px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+
+
+    }
+    .list-l-desk div {
+        display: flex;
+        line-height: 39px
+    }
+
+    .list-l-desk img {
+        height: 11px;
+        margin-top: 13px;
+        margin-right: 10px;
+
+
+
+    }
+
+    .r-desk {
+        /* margin-left: 250px; */
+    }
+    .title-r-desk {
+
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 40px;
+       
+
+
+
+
+    }
+    .table-r-desk {
+       
+    }
+
+
+
+
+ table {
+
+    /* width: 320px;    */
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+ } 
+ 
+ 
+ td {
+
+
+   
+    border: 2px solid black;
+    padding: 11px;
+    width: 210px;
+    
+    
+ }
+
+ .unic {
+    text-align: center;
+
+
+
+ }
+
+
+
+    
+    .title-about {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 18px;
+        /* line-height: 28px; */
+        margin-bottom: 25px;
+       
+    }
+    .text-about {
+        display: flex;
+        /* justify-content: space-between; */
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    .l-text-about {
+        margin-right: 48px; 
+        line-height: 30px;
+        width: 420px;
+    }
+    .r-text-about {
+        line-height: 30px;
+        width: 420px;
+    }
+
+
+    /* main-end */
+
+
+    /* footer-start */
+   
+.footer {
+    background: #242424;
+    height: 183px;
+}
+
+
+.container {
+}
+.wrap-footer {
+display: flex;
+justify-content: space-between;
+margin: auto -30px;
+color: #ffffff;
+
+
+
+}
+.one-f {
+    flex: 1 1 auto;
+    padding: 30px 30px;
+    font-size: 11px;
+    font-weight: 700;
+   
+}
+.one-f p {
+    line-height: 28px;
+
+
+}
+
+.one-f a {
+color: #ffffff;
+text-decoration: underline;
+
+
+}
+
+.two-f {
+    flex: 1 1 auto;
+    padding: 30px 30px;
+    margin-top: 10px;
+}
+.up-m-f {
+    padding-left: 25px;
+    font-weight: 700;
+   
+}
+.net-bloc {
+    display: flex;
+   margin: auto -12px;
+   margin-top: 25px;
+}
+.net-bloc div {
+    margin: auto 12px;
+    
+    background: #000;
+    
+
+
+
+
+}
+
+
+.vk {
+    padding: 18px 15px 15px 15px;
+}
+.fb {
+    padding: 13px 22px;
+}
+.inst {
+    padding: 15px 18px 13px 18px;
+}
+
+.three-f {
+    flex: 1 1 auto;
+    padding: 30px 30px;
+    margin-top: 10px;
+}
+.up-r-f {
+    font-weight: 700;
+    padding-left: 24px;
+    
+
+
+}
+.btn-f-bloc {
+    background: #000;
+padding: 15px 34px;
+margin-top: 24px;
+border: none;
+color: #ffffff;
+font-size: 17px;
+}
+
+
+/* footer-end */
